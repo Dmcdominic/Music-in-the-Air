@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: global_meta_settings
   m_EditorClassIdentifier: 
   min_setting_height: -0.3
-  max_setting_height: 0.3
+  max_setting_height: 0.2
   min_setting_width: -0.3
   max_setting_width: 0.3
