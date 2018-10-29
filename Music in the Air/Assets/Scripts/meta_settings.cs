@@ -13,4 +13,12 @@ public class meta_settings : ScriptableObject {
 		}
 	}
 
+	public float min_setting_width;
+	public float max_setting_width;
+	public float width_range {
+		get {
+			return max_setting_width - min_setting_width;
+		}
+	}
+
 }

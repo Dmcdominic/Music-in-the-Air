@@ -1257,10 +1257,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 678487716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c4cf0b974b22a948bf226cfe0779cef, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ff00e27679aed459b2087e083c459a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  option_to_adjust: 2
+  option_to_adjust: 1
+  adjustment_Axis: 0
   audio_Settings: {fileID: 11400000, guid: 6c0ec2b59c750764599fd8d67a73173e, type: 2}
   meta_Settings: {fileID: 11400000, guid: da183a73f6fcd204f985ef704a8ccb77, type: 2}
 --- !u!4 &721871854 stripped
@@ -2082,10 +2083,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367067091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c4cf0b974b22a948bf226cfe0779cef, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ff00e27679aed459b2087e083c459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  option_to_adjust: 2
+  adjustment_Axis: 1
+  audio_Settings: {fileID: 11400000, guid: 6c0ec2b59c750764599fd8d67a73173e, type: 2}
+  meta_Settings: {fileID: 11400000, guid: da183a73f6fcd204f985ef704a8ccb77, type: 2}
+--- !u!114 &1367067093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1367067091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ff00e27679aed459b2087e083c459a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   option_to_adjust: 0
+  adjustment_Axis: 0
   audio_Settings: {fileID: 11400000, guid: 6c0ec2b59c750764599fd8d67a73173e, type: 2}
   meta_Settings: {fileID: 11400000, guid: da183a73f6fcd204f985ef704a8ccb77, type: 2}
 --- !u!1 &1445795209
