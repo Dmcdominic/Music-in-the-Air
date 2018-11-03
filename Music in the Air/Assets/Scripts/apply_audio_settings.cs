@@ -25,8 +25,8 @@ public class apply_audio_settings : MonoBehaviour {
 	public static void apply_settings(audio_settings settings, AudioSource audioSource) {
 		if (audioSource) {
 			audioSource.volume = settings.get_setting(audio_option.volume);
-			audioSource.pitch = settings.get_setting(audio_option.playback_speed);
-			audioSource.panStereo = settings.get_setting(audio_option.stereo_pan);
+			//audioSource.pitch = settings.get_setting(audio_option.playback_speed);
+			//audioSource.panStereo = settings.get_setting(audio_option.stereo_pan);
 		}
 	}
 
