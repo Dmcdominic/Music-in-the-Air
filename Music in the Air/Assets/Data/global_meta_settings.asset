@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efd40580fc8fa64198d322a00e5794f, type: 3}
   m_Name: global_meta_settings
   m_EditorClassIdentifier: 
-  min_setting_height: -0.3
+  min_setting_height: -0.2
   max_setting_height: 0.2
   min_setting_width: -0.3
   max_setting_width: 0.3
